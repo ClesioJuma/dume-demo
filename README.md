@@ -1,5 +1,7 @@
 # Dume
 
+Este repositório público mostra o código do protótipo Dume. Não é uma instância online: para experimentar a geração de apresentações é necessário executar também o motor Presenton, conforme as instruções abaixo.
+
 Interface independente para estudantes, com o motor de apresentações do [Presenton](https://github.com/presenton/presenton). O Dume não mostra a marca nem o dashboard do Presenton. O backend FastAPI continua responsável pelo upload, outline, geração, slides e exportação. O Next.js do Presenton serve apenas como renderer usado pelo exportador.
 
 ## Executar localmente
